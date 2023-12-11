@@ -914,12 +914,12 @@ background-size: cover; /* Background color for the slider */
 .subimg-container img[alt="img1"]
 {
   width : 40%;
-  height : 30%;
+  height : 40%;
 }
 .subimg-container img[alt="img2"]
 {
   width : 40%;
-  height : 30%;
+  height : 40%;
 }
 #sec04 .subtitles-container
 {
@@ -953,7 +953,7 @@ background-size: cover; /* Background color for the slider */
   top: 0;
   right: 20rem;
   z-index: -1;
-  width: 40%;
+  width: 30%;
   height: 70%;
   animation: text-focus-in 1.2s 1.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
  
@@ -963,7 +963,7 @@ background-size: cover; /* Background color for the slider */
   top: 0;
   right: 20rem;
   z-index: -1;
-  width: 40%;
+  width: 30%;
   height: 70%;
   animation: text-focus-in 1.2s 1.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
  
@@ -973,7 +973,7 @@ background-size: cover; /* Background color for the slider */
   top: 0;
   right: 15rem;
   z-index: -1;
-  width: 40%;
+  width: 30%;
   height: 70%;
   animation: text-focus-in 1.2s 1.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   
