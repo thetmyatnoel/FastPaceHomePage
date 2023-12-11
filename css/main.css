@@ -256,14 +256,14 @@ sup.point {
 
 #sec01 .sec011__con > img {
   margin-top: 10vh;
-  width : 13vw;
-  height : 10vh;
+  width : 15vw;
+  height : 8vh;
   animation: fade-in-top 0.8s 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 #sec01 .sec012__con > img {
   margin-top: 10vh;
-  width : 13vw;
-  height : 10vh;
+  width : 15vw;
+  height : 8vh;
   animation: fade-in-top 0.8s 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
@@ -769,6 +769,7 @@ sup.point {
   padding-top: 0;
 }
 
+
 #sec03 .layout {
   display: flex;
   flex-direction: column;
@@ -782,23 +783,17 @@ sup.point {
 
 #sec03 .con__text
 {
-  padding-top: 5vh;
   padding-bottom: 5vh;
 }
 
-#sec03 .con__text h3,
-#sec03 .con__text p , #sec03 .con__text span{
-    text-align: center;
-}
-#sec03 .con__text h3 img {
-
-  margin: 0 auto;
+#sec03 .con__title{
+  margin-bottom: 0;
 }
 
 
 #sec03 .con__text img{
-  width: 18vw;
-  height: 7vh;
+  width: 20%;
+  height: 20%;
 
 }
 
@@ -909,7 +904,7 @@ background-size: cover; /* Background color for the slider */
   gap: 10vw; 
   margin-top: 35vh;
   margin-right: 35vw;
-  animation: fade-in-top  1.4s 1.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  
 }
 .subimg-container img[alt="img1"]
 {
@@ -928,7 +923,7 @@ background-size: cover; /* Background color for the slider */
   align-items: center; /* Vertically aligns the items */
   gap: 11vw; 
   margin-right: 35vw;
-  animation: fade-in-top  2s 2.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  
 }
 #sec04 .sec042__con > p {
   font-size: 2rem;
@@ -953,7 +948,7 @@ background-size: cover; /* Background color for the slider */
   top: 0;
   right: 20rem;
   z-index: -1;
-  width: 30%;
+  width: 35%;
   height: 70%;
   animation: text-focus-in 1.2s 1.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
  
@@ -963,7 +958,7 @@ background-size: cover; /* Background color for the slider */
   top: 0;
   right: 20rem;
   z-index: -1;
-  width: 30%;
+  width: 40%;
   height: 70%;
   animation: text-focus-in 1.2s 1.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
  
@@ -973,24 +968,27 @@ background-size: cover; /* Background color for the slider */
   top: 0;
   right: 15rem;
   z-index: -1;
-  width: 30%;
+  width: 35%;
   height: 70%;
   animation: text-focus-in 1.2s 1.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   
 }
 
 #sec04 .sec041__img img {
-  width: 100%;
+  padding-top: 10vh;
+  width: 50%;
   height: 100%;
   object-fit: contain;
 }
 #sec04 .sec042__img img {
-  width: 100%;
+  padding-top: 10vh;
+  width: 70%;
   height: 100%;
   object-fit: contain;
 }
 #sec04 .sec043__img img {
-  width: 100%;
+  padding-top: 10vh;
+  width: 50%;
   height: 100%;
   object-fit: contain;
 }
