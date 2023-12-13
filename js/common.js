@@ -151,7 +151,7 @@ $(function () {
 
         $.ajax({
             type: 'POST',
-            url: 'http://118.67.131.35:3000/submit-inquiry',
+            url: 'http://118.67.131.35/submit-inquiry',
             data: formData,
             success: function(response) {
                 alert("Inquiry submitted successfully!"); // Show success message
